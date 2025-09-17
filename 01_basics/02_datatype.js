@@ -23,6 +23,6 @@ let isStudent = true
 // object
 
 console.log(typeof age);
-console.log(typeof undefine)  //type aavego undefine
+console.log(typeof undefine)  //type aayego undefine
 console.log(typeof null); //type aavego object
 
