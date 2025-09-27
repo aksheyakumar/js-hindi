@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color:#212121">
+   <div class="card">
+  <img src="https://avatars.githubusercontent.com/u/11613311?v=4" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>hitesh choudhary</b></h4>
+    <p>Chai aur Code</p>
+  </div>
+</div>
+</body>
+<script>
+    const requesturl = 'https://api.github.com/users/hiteshchoudhary'
+   const superman = new XMLHttpRequest()
+   superman.open('GET',requesturl)
+   superman.onreadystatechange = function () {
+    console.log(superman.readyState);
+    if(superman.readyState === 4) {
+        const data =JSON.parse(this.responseText)
+        console.log(data.follower);
+
+
+    }
+    
+   }
+   superman.send()
+</script>
+</html>
