@@ -64,11 +64,11 @@ const {courseInstructor: master} = course
 
 // console.log(courseInstructor);
 console.log(master);
-
+const hii =
 {
     "name":"aksheya",
     "course":"js in hindi",
-    "fees":"free"
+    "fees": "free"
 }
 
 [

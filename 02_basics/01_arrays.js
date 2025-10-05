@@ -18,7 +18,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()
+// const newArr = myArr.join()  // isme hum alag alag tarike se bhi kr skte h jaise .join("-" "," "|")
 
 // console.log(myArr);
 // console.log( newArr);
@@ -28,12 +28,12 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3) //ye sirf value dega aur original array me koi change nhi hoga
 
 console.log(myn1);
 console.log("B ", myArr);
 
 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
+console.log("C ", myArr); // ye array ko badaal deta h original array ko bhi badal deta h
 console.log(myn2);

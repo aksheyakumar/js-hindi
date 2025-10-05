@@ -2,8 +2,9 @@ function addnumber(number1,number2){
     let result = number1 + number2
     return result
 }
+//ye upar wale jo repalce krdega
 
-function addnumber(number1,number2){
+function addnumber(number1,number2){ 
     return number1 + number2
     
 }

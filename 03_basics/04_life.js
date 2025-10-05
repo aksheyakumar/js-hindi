@@ -1,6 +1,6 @@
 // iife
 
-// ye hum use krte h taaki global variable ke pollution se bach paaye
+// ye hum use krte h taaki global variable ke pollution se bach paaye yaa global scope me variable leak na hooo
 (function chai(){  //ye named iife h
     console.log(`kya hi likhduu`);
     

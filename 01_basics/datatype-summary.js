@@ -29,7 +29,7 @@ const bigNumber = 2343252534534n
 
 let myobj = {
     name:"aksheya",
-    age:21;
+    age: 21,
 }
 const myfunction = function(){
     console.log("hello world");
